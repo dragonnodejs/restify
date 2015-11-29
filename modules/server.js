@@ -24,7 +24,7 @@ module.exports = (config, libraries, services) => {
     if (config.plugins) {
         config.plugins(restify, server);
     }
-    server.listen.apply(undefined, config.listen);
+    server.listen.apply(server, config.listen);
 
     services.server = server;
 };

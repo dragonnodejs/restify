@@ -1,7 +1,7 @@
 {
   "name": "dragonnodejs-restify",
   "description": "Bundle with services to develop RestAPI server applications with restify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "http://github.com/dragonnodejs/restify",
   "license": "MIT",
   "readmeFilename": "README.md",
